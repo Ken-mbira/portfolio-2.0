@@ -1,0 +1,7 @@
+.nav {
+    background-color: #1B2029;
+}
+
+.nav>li>a {
+    color: #ffffff !important;
+}
