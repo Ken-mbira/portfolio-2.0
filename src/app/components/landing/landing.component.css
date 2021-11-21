@@ -15,9 +15,15 @@
 .explore-btn:hover {
     background-color: #E21B6D;
     border-color: #E21B6D;
+    color: #ffffff;
 }
 
 .explore-btn:hover .landing-arrow {
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+}
+
+.explore-btn::after .landing-arrow {
     transform: rotate(90deg);
     transition-duration: 0.5s;
 }
