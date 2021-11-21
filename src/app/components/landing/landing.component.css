@@ -10,3 +10,13 @@
         right: 0;
     }
 }
+
+.explore-btn:hover {
+    background-color: #E21B6D;
+    border-color: #E21B6D;
+}
+
+.explore-btn:hover .landing-arrow {
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+}
