@@ -1,0 +1,12 @@
+.landing-background {
+    position: absolute;
+    height: 100vh;
+    right: 15vw;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-background {
+        right: 0;
+    }
+}
