@@ -21,3 +21,46 @@
     transform: rotate(90deg);
     transition-duration: 0.5s;
 }
+
+.floating-icons {
+    position: absolute;
+}
+
+.floating-icons>img {
+    width: 20px;
+}
+
+#icon-1 {
+    top: 10vh;
+    left: 30vw;
+}
+
+#icon-2 {
+    top: 30vh;
+    left: 10vw;
+}
+
+#icon-3 {
+    top: 50vh;
+    left: 80vw;
+}
+
+#icon-4 {
+    top: 20vh;
+    left: 90vw;
+}
+
+#icon-5 {
+    top: 90vh;
+    left: 50vw;
+}
+
+#icon-6 {
+    top: 60vh;
+    left: 40vw;
+}
+
+#icon-7 {
+    top: 50vh;
+    left: 10vw;
+}
