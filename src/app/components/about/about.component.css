@@ -1,0 +1,14 @@
+.specialty {
+  background: linear-gradient(to right, rgba(32, 27, 41, 0), rgb(29, 25, 32));
+  border-radius: 10px;
+}
+.specialty > h3 {
+  color: #1be2d6;
+}
+.specialty > p {
+  color: #ffffff;
+}
+
+.specialty > div > img {
+  margin-left: 20px;
+}
