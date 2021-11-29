@@ -1,0 +1,26 @@
+.contact-form>div>input {
+    background-color: #0000004d;
+    border: none;
+    color: white;
+}
+
+.contact-form>div>textarea {
+    background-color: #0000004d;
+    border: none;
+    color: white;
+}
+
+.btn-outline {
+    color: #E21B6D;
+    background-color: #0000004d;
+    border-color: #E21B6D;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+    background: #E21B6D;
+    color: #ffffff;
+    border-color: #E21B6D;
+}
