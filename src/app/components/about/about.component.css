@@ -1,5 +1,5 @@
 .specialty {
-  background: linear-gradient(to right, rgba(32, 27, 41, 0), rgb(29, 25, 32));
+  background: linear-gradient(to right, rgba(32, 27, 41, 0), rgba(29, 25, 32));
   border-radius: 10px;
 }
 .specialty > h3 {
@@ -12,3 +12,16 @@
 .specialty > div > img {
   margin-left: 20px;
 }
+@media screen and (max-width: 770px) {
+  #about-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .specialty > div > img {
+  display: flex;
+  align-items: center
+  }
+}
+
