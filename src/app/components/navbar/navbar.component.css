@@ -3,9 +3,10 @@
 }
 
 .nav>li>a {
-    color: #ffffff !important;
+    color: #ffffff;
+    transition: 600ms;
 }
 
-a:active {
-    color: #E21B6D !important;
+a.active{
+    color:#E21B6D !important;
 }
