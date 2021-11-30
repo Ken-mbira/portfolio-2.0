@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         $('.target').each(function (){
-            if($(window).scrollTop() >= $(this).offset().top){
+            if($(window).scrollTop() > $(this).offset().top){
                 var id = $(this).attr('id');
                 $('.active').removeClass('active');
                 $(".page-nav").each(function(){
@@ -17,4 +17,5 @@ $(document).ready(function () {
             }
         })
     })
+
 })

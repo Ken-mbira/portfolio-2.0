@@ -1,82 +1,48 @@
 <div class="container-fluid">
-  <div class="row p-2">
-    <div class="d-none d-md-block col-md-1"></div>
-    <div class="col-12 col-md-4">
-      <div class="card mb-3 p-2 specialty" data-bs-toggle="tab"
-        data-bs-target="#design" role="tab">
-        <h3>Back-End</h3>
-        <p>
+  <div class="m-3 justify-content-center d-flex" style="color:#E21B6D;width: 100">
+    <hr style="width:10vw">
+    <h1 class="ms-3 me-3">ABOUT ME</h1>
+    <hr style="width:10vw">
+  </div>
+  <div class="row">
+    <div class="col-md-4" id="about-section">
+      <div class="card mb-3 p-2 specialty">
+        <h3 class="d-none d-md-block">Back-End</h3>
+        <p class="d-none d-md-block">
           I would consider this my strong-suit, I quite frankly love the thrill
           that comes with the journey of making things work on the technical
           level
         </p>
         <div class="d-flex w-100 justify-content-center specialty-icons">
           <img src="../../../assets/images/about/map.svg" style="width: 20px" />
-          <img
-            src="../../../assets/images/about/framer.svg"
-            style="width: 20px"
-          />
+          <img src="../../../assets/images/about/framer.svg" style="width: 20px" />
         </div>
       </div>
       <div class="card mb-3 p-1 specialty">
-        <h3>Front-End</h3>
-        <p>
+        <h3 class="d-none d-md-block">Front-End</h3>
+        <p class="d-none d-md-block">
           Visualizing the backend also comes in handy as to many, what they see
           is what they beleive...
         </p>
         <div class="d-flex w-100 justify-content-center specialty-icons">
           <img src="../../../assets/images/about/_.svg" style="width: 20px" />
-          <img
-            src="../../../assets/images/about/{css}.svg"
-            style="width: 30px"
-          />
+          <img src="../../../assets/images/about/{css}.svg" style="width: 30px" />
         </div>
       </div>
-      <div
-        class="card mb-3 p-1 specialty"
-        data-bs-toggle="tab"
-        data-bs-target="#design"
-        role="tab"
-      >
-        <h3>Design</h3>
-        <p>
+      <div class="card mb-3 p-1 specialty">
+        <h3 class="d-none d-md-block">Design</h3>
+        <p class="d-none d-md-block">
           This is the beginning of every project journey... when done right
           makes the whole thing smooth
         </p>
         <div class="d-flex w-100 justify-content-center specialty-icons">
-          <img
-            src="../../../assets/images/about/4691213_python_icon 2.svg"
-            style="width: 20px"
-          />
-          <img
-            src="../../../assets/images/about/django.svg"
-            style="width: 50px"
-          />
+          <img src="../../../assets/images/about/4691213_python_icon 2.svg" style="width: 20px" />
+          <img src="../../../assets/images/about/django.svg" style="width: 50px" />
         </div>
       </div>
     </div>
-    <div class="d-none d-md-block col-md-1"></div>
-    <div class="col-12 col-md-6 tab-content">
-      <div class="tab-pane fade" id="design" role="tabpanel">
-        <h2 style="color: #1be2d6">Design</h2>
-        <p style="color: white">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          doloribus sequi veniam necessitatibus esse, quasi eius pariatur
-          ducimus numquam autem qui nobis? Labore quod delectus dolore autem
-          officiis repellat voluptates.
-        </p>
-      </div>
-    </div>
-        <div class="col-12 col-md-6 tab-content">
-      <div class="tab-pane fade" id="backend" role="tabpanel">
-        <h2 style="color: #1be2d6">Design</h2>
-        <p style="color: white">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          doloribus sequi veniam necessitatibus esse, quasi eius pariatur
-          ducimus numquam autem qui nobis? Labore quod delectus dolore autem
-          officiis repellat voluptates.
-        </p>
-      </div>
+    <div class="col-md-6">
+      <app-about-sections></app-about-sections>
     </div>
   </div>
 </div>

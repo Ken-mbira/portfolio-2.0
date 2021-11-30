@@ -7,6 +7,6 @@
     transition: 600ms;
 }
 
-a.active{
+.active{
     color:#E21B6D !important;
 }
